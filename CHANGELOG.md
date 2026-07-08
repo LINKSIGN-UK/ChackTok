@@ -2,6 +2,20 @@
 
 All notable public documentation changes for the ChackTok GitHub documentation hub are recorded here.
 
+## 2026-07-07 - SERP entry page pack
+
+### Added
+
+- Added `seo/` with a first-wave ChackTok SERP page pack for software, device, use-case, comparison, and 2026 learn pages.
+- Added technical SEO guidance for canonical URLs, noindex rules, sitemap submission, robots handling, and page QA.
+- Added schema templates for Organization, SoftwareApplication, FAQPage, HowTo, and BreadcrumbList JSON-LD.
+- Added `llms.txt` to provide AI-readable product context for ChackTok.
+- Added `pricing.md` to provide safe, source-linked pricing guidance without freezing stale prices.
+
+### Changed
+
+- Linked the SERP entry page pack, AI-readable context, and pricing notes from the main README.
+
 ## 2026-06-09 - Public documentation cleanup
 
 ### Added

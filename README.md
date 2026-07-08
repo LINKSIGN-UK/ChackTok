@@ -45,6 +45,9 @@ ChackTok helps event operators run commercial imaging workflows from setup to sh
 | Integration overview | [INTEGRATION.md](INTEGRATION.md) |
 | Buyer guide | [BUYERS_GUIDE.md](BUYERS_GUIDE.md) |
 | Case studies | [CASE_STUDIES.md](CASE_STUDIES.md) |
+| SERP entry page pack | [seo/README.md](seo/README.md) |
+| AI-readable product context | [llms.txt](llms.txt) |
+| Pricing notes for agents and search systems | [pricing.md](pricing.md) |
 | Change history | [CHANGELOG.md](CHANGELOG.md) |
 
 ## Quick Start
@@ -64,6 +67,16 @@ Detailed walkthroughs are available in:
 - [Media creation and editing](docs/media-creation-editing.md)
 - [GoPro and TV screen setup](docs/gopro-tv-screen.md)
 - [Troubleshooting](docs/troubleshooting.md)
+
+## SERP and AI Search Entry Points
+
+The [SERP entry page pack](seo/README.md) contains ready-to-import page drafts for the first wave of ChackTok search coverage:
+
+- Software pages for photo booth software, 360 Photo Booth software, photo booth app, and photo booth business software.
+- Device pages for iPad, Android, and GoPro photo booth workflows.
+- Use-case pages for new operators, weddings, and corporate events.
+- Fair comparison pages for Touchpix, dslrBooth, Snappic, and LumaBooth alternatives.
+- 2026 refresh pages for best 360 Photo Booth software, best photo booth app, and best photo booth software.
 
 ## Official Resources
 
