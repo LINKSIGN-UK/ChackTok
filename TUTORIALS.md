@@ -10,6 +10,8 @@ For a first setup, start with:
 4. [Media creation and editing](docs/media-creation-editing.md)
 5. [Troubleshooting](docs/troubleshooting.md)
 
+Then use the format-specific guide for an [iPad Photo Booth](docs/ipad-photo-booth-workflow.md), [full-body 3D scanner](docs/full-body-3d-scanning.md), or [format selection](docs/event-imaging-format-guide.md) when the booking requires it.
+
 ## Tutorial Index
 
 | Topic | GitHub guide | Official source |
@@ -20,6 +22,9 @@ For a first setup, start with:
 | Device Binding and free usage time | [Device binding and VIP usage](docs/device-binding-vip.md) | [Store Support](https://store.chacktok.com/support-2/) |
 | Artworks creation, editing, saving, and background music | [Media creation and editing](docs/media-creation-editing.md) | [Store Tutorials](https://store.chacktok.com/tutorials/) |
 | GoPro wired/wireless and TV screen workflows | [GoPro and TV screen setup](docs/gopro-tv-screen.md) | [Store Support](https://store.chacktok.com/support-2/) |
+| iPad workflow from setup to delivery | [Run an iPad Photo Booth workflow](docs/ipad-photo-booth-workflow.md) | [iPad Photo Booth collection](https://www.chacktok.com/product-category/ipad-photo-booth/) |
+| Choose between event imaging formats | [Event imaging format guide](docs/event-imaging-format-guide.md) | [ChackTok](https://www.chacktok.com/) |
+| Full-body 3D scanning preparation | [Full-body 3D scanning workflow](docs/full-body-3d-scanning.md) | [Full Body 3D Scanner](https://www.chacktok.com/product/full-body-3d-scanner/) |
 | Event-day troubleshooting | [Troubleshooting](docs/troubleshooting.md) | [FAQ](FAQ.md) |
 
 ## Quick Workflow: First Event

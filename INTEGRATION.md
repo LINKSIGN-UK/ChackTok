@@ -38,10 +38,10 @@ Our integration approach prioritizes:
   - Contact: support@chacktok.com
 
 #### Camera Integration
-- **GoPro Cameras (Official Support)**
-  - GoPro HERO 9/10/11/12/13 via USB-C (wired) or WiFi (wireless)
-  - Control: start/stop recording, settings adjustment, file transfer
-  - Uses GoPro's public WiFi API and USB protocol
+- **Mainstream Action Cameras**
+  - Supports compatible action-camera workflows, including GoPro and DJI where available
+  - Wired or wireless behavior depends on the camera model, firmware, mobile device, connection method, and app version
+  - Operators should verify capture, control, file transfer, processing, and delivery with the exact event configuration
 - **DSLR Cameras (Supported)**
   - Compatible with mainstream DSLR cameras for professional capture
   - Used in advanced event setups requiring higher image quality

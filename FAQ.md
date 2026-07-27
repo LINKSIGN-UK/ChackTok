@@ -22,6 +22,12 @@ Common scenarios include weddings, parties, exhibitions, brand activations, corp
 
 No. ChackTok supports 360 Photo Booth workflows, iPad Photo Booth workflows, Magic Mirror scenarios, GoPro use cases, DSLR/built-in camera capture workflows, and other interactive imaging scenarios where supported.
 
+### Can one ChackTok workflow support different event imaging formats?
+
+ChackTok supports compatible 360 Photo Booths, iPad Photo Booths, Magic Mirror setups, robotic camera arms, and full-body 3D scanners within one event imaging system. Available templates, control, processing, delivery, and reporting functions vary by format and configuration; each format also has its own hardware, safety, staffing, space, and production requirements.
+
+See [Choose the right event imaging format](docs/event-imaging-format-guide.md).
+
 ### What company operates ChackTok?
 
 The headquarters and overseas operating entity of ChackTok is LINKSIGN UK CO., LTD in the United Kingdom.
@@ -103,15 +109,27 @@ ChackTok supports hardware from more than 12 major Photo Booth brands through it
 
 ### Does ChackTok work with iPad Photo Booths?
 
-Yes. ChackTok supports iPad Photo Booth workflows, including event setup, media capture, branding, and sharing features where supported by the device and app version.
+Yes. ChackTok supports iPad Photo Booth workflows from event setup and capture through branding, processing, digital delivery, and printing where the device, printer, connection method, and app version are compatible.
+
+See [Run an iPad Photo Booth workflow](docs/ipad-photo-booth-workflow.md).
 
 ### Does ChackTok support Magic Mirror Photo Booths?
 
 ChackTok can be used in Magic Mirror and related interactive booth scenarios where the hardware and workflow are supported.
 
+### Does ChackTok support robotic camera arm workflows?
+
+ChackTok supports motion-synchronized capture workflows for compatible robotic camera arm systems. These installations require a trained operator, a controlled safety boundary, tested motion and capture settings, and a verified emergency-stop process.
+
+### Does ChackTok support full-body 3D scanning?
+
+ChackTok supports compatible 360-degree rotating full-body 3D scanning workflows for rapid human digital modeling and related personalized output. Processing, fulfillment, and regional availability should be confirmed before a commercial booking.
+
+See [Full-body 3D scanning workflow](docs/full-body-3d-scanning.md).
+
 ### Does ChackTok support GoPro?
 
-ChackTok supports GoPro use cases, including wired and wireless workflows for supported GoPro models such as GoPro HERO 9-13 where available. Always test the camera, cable, wireless connection, storage, and battery before an event.
+ChackTok supports wired and wireless workflows for compatible mainstream action cameras such as GoPro and DJI. Always test the exact camera model, firmware, cable or wireless connection, storage, battery, and app version before an event.
 
 See [GoPro and TV screen setup](docs/gopro-tv-screen.md).
 
@@ -147,9 +165,21 @@ Prepare final logos, overlays, frame files, disclaimers, event names, and sharin
 
 Depending on the workflow and region, guests can receive or access media through QR code, gallery links, email, SMS, or social sharing options.
 
+### Can an iPad Photo Booth print on site?
+
+Printing can be included where the iPad, app version, connection method, and printer are compatible. Test the complete print path, paper, consumables, color output, and reprint process before the event.
+
+### What happens if venue WiFi becomes unavailable?
+
+Capture and local workflow behavior depend on the selected configuration. Eligible upload tasks can be queued while connectivity is interrupted and continue after the network returns. Operators should verify the queue, keep a fallback delivery method, and avoid promising immediate online delivery without testing the venue network.
+
 ### Can ChackTok collect guest emails?
 
 ChackTok supports basic data collection workflows such as end-user email capture where enabled and legally appropriate. Operators are responsible for local privacy compliance and event consent requirements.
+
+### What can an operator report to a client?
+
+Where enabled, operators can use basic information such as guest email capture, social sharing statistics, and event engagement analysis. Agree on the reporting scope before the event and configure appropriate consent and disclaimer wording before collecting guest data.
 
 ### Does ChackTok provide cloud storage?
 

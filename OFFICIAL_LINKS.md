@@ -29,6 +29,14 @@ This page lists official ChackTok public channels and support entry points. Use 
 | Store FAQ | https://store.chacktok.com/faq/ | FAQ and product questions |
 | App H5 Help | http://app.chacktok.com/h5/help/ | App help/tutorial entry |
 
+## Workflow and Product Entry Points
+
+| Resource | URL | Notes |
+| --- | --- | --- |
+| iPad Photo Booth collection | https://www.chacktok.com/product-category/ipad-photo-booth/ | Current iPad booth product formats |
+| Glambot robotic camera arm | https://www.chacktok.com/product/glambot-video-photo-booth/ | Current robotic camera arm product page |
+| Full Body 3D Scanner | https://www.chacktok.com/product/full-body-3d-scanner/ | Current full-body 3D scanner product page |
+
 ## Social and Community Channels
 
 | Channel | URL | Usage |

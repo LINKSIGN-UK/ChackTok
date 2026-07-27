@@ -3,7 +3,7 @@ target_url: https://www.chacktok.com/devices/gopro-photo-booth-app/
 canonical: https://www.chacktok.com/devices/gopro-photo-booth-app/
 meta_title: GoPro Photo Booth App Workflows | ChackTok
 meta_description: ChackTok supports GoPro photo booth workflows where compatible. Learn what operators should test before a commercial event.
-last_updated: 2026-07-07
+last_updated: 2026-07-27
 schema: SoftwareApplication, FAQPage, HowTo, BreadcrumbList
 ---
 
@@ -25,9 +25,9 @@ GoPro workflows can improve capture quality for some 360 and event-video setups,
 
 ## FAQ
 
-### Which GoPro models should operators verify?
+### Which action-camera models should operators verify?
 
-Public ChackTok documentation references supported GoPro workflows such as GoPro HERO 9-13 where available. Operators should confirm the current app version and exact model before a commercial event.
+ChackTok supports compatible mainstream action-camera workflows, including GoPro and DJI where available. Operators should confirm the exact camera model, firmware, connection method, mobile device, and app version before a commercial event.
 
 ### Is GoPro required?
 

@@ -11,7 +11,9 @@ Compatibility can vary by hardware model, firmware, mobile device, operating sys
 | 360 Photo Booth | Bluetooth-based booth control, capture workflow, event media creation |
 | iPad Photo Booth | Tablet-based capture, branding, guest interaction, sharing |
 | Magic Mirror Photo Booth | Interactive booth experiences where supported |
-| GoPro workflows | Wired or wireless capture workflows for supported GoPro models |
+| Robotic camera arm | Motion-synchronized capture workflows where the arm, camera, safety setup, and app configuration are supported |
+| Full-body 3D scanner | Controlled 360-degree subject capture and full-body digital-model workflows |
+| Mainstream action cameras | Wired or wireless capture workflows for compatible cameras such as GoPro and DJI |
 | Mobile device cameras | Built-in iOS or Android camera workflows |
 | DSLR workflows | Professional capture workflows where supported |
 | External screens | TV, projector, or display output where supported by the device and system |
@@ -40,6 +42,42 @@ For supported 360 Photo Booth workflows:
 5. Run a full test capture before the event begins.
 
 See [Connect a 360 Photo Booth](docs/connect-360-booth.md).
+
+## iPad Photo Booth Notes
+
+For iPad Photo Booth workflows:
+
+- Confirm the iPad model, mount dimensions, orientation, charging, and camera permissions.
+- Test the built-in camera or supported external camera configuration.
+- Check lighting, guest reach, screen readability, and the complete sharing path.
+- Test the printer, paper, and reprint process if physical delivery is included.
+- Prepare a fallback delivery method for unreliable venue networks.
+
+See [Run an iPad Photo Booth workflow](docs/ipad-photo-booth-workflow.md).
+
+## Robotic Camera Arm Notes
+
+Robotic camera arm workflows require format-specific planning:
+
+- Use a trained operator.
+- Define and control the safety boundary.
+- Test the motion path, capture trigger, lighting, camera, and emergency stop process.
+- Keep guests and unauthorized staff outside the arm's operating area.
+- Confirm that the final media-processing and delivery workflow matches the booking.
+
+See [Choose the right event imaging format](docs/event-imaging-format-guide.md).
+
+## Full-Body 3D Scanner Notes
+
+For full-body 3D scanning workflows:
+
+- Reserve a controlled capture area.
+- Confirm subject-positioning and accessibility requirements.
+- Test the complete capture, model-processing, review, and delivery sequence.
+- Set expectations for processing time and any later 3D-print fulfillment.
+- Confirm current configuration and regional availability before a commercial commitment.
+
+See [Full-body 3D scanning workflow](docs/full-body-3d-scanning.md).
 
 ## GoPro and External Display Notes
 

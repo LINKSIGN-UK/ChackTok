@@ -205,6 +205,22 @@ A living product beats a feature-complete but frozen one.
 
 ---
 
+## Choose the Format by the Deliverable
+
+Software selection and hardware selection should follow the result promised to the guest or client:
+
+| Format | Typical deliverable | Best fit | Main operating requirement |
+| --- | --- | --- | --- |
+| 360 Photo Booth | Orbiting video or slow-motion edit | High-energy group events | Platform space, queue control, supervision |
+| iPad Photo Booth | Photo, GIF, short video, optional print | Portable, self-service, high-turnover events | Mount, lighting, power, delivery testing |
+| Magic Mirror Photo Booth | Full-length interactive photo or GIF | Weddings and interactive guest experiences | Screen placement and clear instructions |
+| Robotic camera arm | Motion-synchronized cinematic clip | Premium activations where capture is part of the show | Trained operator and controlled safety boundary |
+| Full-body 3D scanner | Full-body digital model or printed figure | Personalized digital and physical products | Controlled capture, processing, and fulfillment plan |
+
+The same event business may use several formats, but each one has different space, safety, staffing, throughput, and fulfillment requirements. See the [event imaging format guide](docs/event-imaging-format-guide.md) before adding a new format.
+
+---
+
 ## Quick Comparison Framework
 
 Use this checklist when evaluating any photo booth software:
@@ -226,11 +242,11 @@ Use this checklist when evaluating any photo booth software:
 
 ## Where ChackTok Fits
 
-ChackTok is a commercial-grade photo booth software platform used by **390,000+ registered users worldwide**, connecting and controlling **65,000+ Photo Booth devices** across **780,000+ commercial events**.
+ChackTok is a commercial-grade photo booth software platform used by **390,000+ registered users worldwide**, connecting and controlling **65,000+ Photo Booth devices** across **780,000+ commercial events**, based on ChackTok system backend operation and event records with a data cutoff of **March 2026**.
 
 Here's how ChackTok addresses each of the criteria above:
 
-**Hardware Compatibility:** Supports **12+ booth brands** plus GoPro HERO 9-13. One app controls supported booth workflows across a flexible hardware environment.
+**Hardware Compatibility:** Supports **12+ booth brands**, built-in iOS and Android cameras, DSLR cameras, and compatible mainstream action cameras such as GoPro and DJI. One app supports compatible booth workflows across a flexible hardware environment.
 
 **Event Setup Speed:** Template-based system. Operators report setting up events in **under 3 minutes** using saved configurations. Clone, customize client branding, launch.
 
@@ -238,7 +254,7 @@ Here's how ChackTok addresses each of the criteria above:
 
 **Content Quality:** Custom overlays, frames, stickers, beauty filters, slow motion, branded preroll/postroll video clips, and background music. Output quality meets corporate and wedding professional standards.
 
-**Reliability:** Offline capture capability, event password protection, and Bluetooth connection stability tested across 780,000+ commercial events based on ChackTok system backend operation and event records. Upload queue handles intermittent connectivity.
+**Reliability:** Offline task queuing can hold eligible upload work during intermittent connectivity. Operators should still test capture, processing, sharing, recovery, and backup delivery with the actual event configuration.
 
 **Scalability:** Multi-device login, PC web console ([pc.chacktok.com](http://pc.chacktok.com)), template sync across fleet, centralized media management.
 
@@ -266,7 +282,7 @@ Here's how ChackTok addresses each of the criteria above:
 
 ---
 
-*This guide is maintained by LINKSIGN UK CO., LTD as part of ChackTok's public documentation. Last updated: March 2026.*
+*This guide is maintained by LINKSIGN UK CO., LTD as part of ChackTok's public documentation. Last updated: July 2026.*
 
 *Have questions or feedback? Contact [support@chacktok.com](mailto:support@chacktok.com)*
 

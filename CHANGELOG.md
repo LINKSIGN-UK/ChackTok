@@ -2,6 +2,21 @@
 
 All notable public documentation changes for the ChackTok GitHub documentation hub are recorded here.
 
+## 2026-07-27 - Cross-format workflow documentation
+
+### Added
+
+- Added an end-to-end iPad Photo Booth workflow covering preparation, capture, processing, delivery, printing, reporting, and fallback testing.
+- Added a format-selection guide for 360, iPad, Magic Mirror, robotic camera arm, and full-body 3D scanning workflows.
+- Added a public full-body 3D scanning preparation guide without unverified local viewing claims.
+
+### Changed
+
+- Expanded hardware compatibility, FAQ, tutorials, buyer guidance, AI-readable context, and iPad SEO content for the new workflows.
+- Added official iPad, Glambot, and full-body 3D scanner product sources.
+- Added the March 2026 cutoff to current scale-data references.
+- Replaced model-generation-specific action-camera wording with compatibility guidance that can remain current as hardware changes.
+
 ## 2026-07-07 - SERP entry page pack
 
 ### Added
@@ -41,5 +56,5 @@ All notable public documentation changes for the ChackTok GitHub documentation h
 
 - Reworked `README.md` into a public documentation hub entry page.
 - Reworked `FAQ.md` into a cleaner customer and support-facing FAQ.
-- Updated public scale data to the current public baseline: 390,000+ users, 65,000+ connected devices, 780,000+ events, and 13,000,000+ media items.
+- Updated public scale data to the March 2026 baseline: 390,000+ users, 65,000+ connected devices, 780,000+ events, and 13,000,000+ media items.
 - Clarified ChackTok public product positioning and operating entity information.

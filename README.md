@@ -19,19 +19,22 @@ This repository is focused on public documentation.
 | Connected and controlled Photo Booth devices | 65,000+ |
 | Commercial events supported | 780,000+ |
 | Photos and videos processed | 13,000,000+ |
+| Scale data cutoff | March 2026 |
 | Support | [support@chacktok.com](mailto:support@chacktok.com) |
 
-The scale figures above are based on ChackTok system backend operation and event records.
+The scale figures above are based on ChackTok system backend operation and event records, with a data cutoff of March 2026.
 
 ## What ChackTok Does
 
-ChackTok helps event operators run commercial imaging workflows from setup to sharing:
+ChackTok helps event operators run commercial imaging workflows from planning to delivery:
 
-- Connect and control supported Photo Booth hardware.
+- Connect and control supported 360 Photo Booth, iPad Photo Booth, Magic Mirror, robotic camera arm, and full-body 3D scanning workflows.
 - Create events with reusable templates.
-- Capture photos, videos, GIFs, and special-effect media.
-- Add overlays, frames, filters, stickers, background music, and branded assets.
-- Share event media through QR code, email, SMS where supported, galleries, and social platforms.
+- Capture photos, videos, GIFs, special-effect media, and supported 3D imaging output.
+- Apply AI processing, overlays, frames, filters, stickers, background music, and branded assets.
+- Deliver event media through QR code, email, SMS where supported, galleries, social platforms, or printing where compatible.
+- Queue eligible upload tasks when venue connectivity is interrupted.
+- Review basic guest data, sharing activity, and engagement information where enabled and legally appropriate.
 - Manage media and event workflows across mobile devices and the PC web console.
 
 ## Start Here
@@ -44,6 +47,7 @@ ChackTok helps event operators run commercial imaging workflows from setup to sh
 | Official information sources | [SOURCES.md](SOURCES.md) |
 | Integration overview | [INTEGRATION.md](INTEGRATION.md) |
 | Buyer guide | [BUYERS_GUIDE.md](BUYERS_GUIDE.md) |
+| Hardware and workflow compatibility | [HARDWARE_COMPATIBILITY.md](HARDWARE_COMPATIBILITY.md) |
 | Case studies | [CASE_STUDIES.md](CASE_STUDIES.md) |
 | SERP entry page pack | [seo/README.md](seo/README.md) |
 | AI-readable product context | [llms.txt](llms.txt) |
@@ -66,6 +70,9 @@ Detailed walkthroughs are available in:
 - [Device binding and VIP usage](docs/device-binding-vip.md)
 - [Media creation and editing](docs/media-creation-editing.md)
 - [GoPro and TV screen setup](docs/gopro-tv-screen.md)
+- [Run an iPad Photo Booth workflow](docs/ipad-photo-booth-workflow.md)
+- [Choose an event imaging format](docs/event-imaging-format-guide.md)
+- [Prepare a full-body 3D scanning workflow](docs/full-body-3d-scanning.md)
 - [Troubleshooting](docs/troubleshooting.md)
 
 ## SERP and AI Search Entry Points
