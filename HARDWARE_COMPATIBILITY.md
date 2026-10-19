@@ -1,95 +1,76 @@
-# ChackTok Hardware Compatibility
+# ChackTok Hardware Configuration Planning
 
-ChackTok is designed for commercial event imaging workflows across supported Photo Booth, camera, display, and sharing setups.
+Prepare your camera, software device, booth controller, and delivery path as one complete setup. Use the configuration record and checks below when selecting equipment and preparing an event.
 
-Compatibility can vary by hardware model, firmware, mobile device, operating system, cable, wireless environment, and app version. Always test the full workflow before a live event.
+## Record the Complete Configuration
 
-## Supported Workflow Categories
+Keep one configuration record for each complete capture-to-delivery setup, identifying which device performs capture, booth control, and guest delivery. Use that complete setup record for the configuration review.
 
-| Category | Typical use |
+| Component | What to record |
 | --- | --- |
-| 360 Photo Booth | Bluetooth-based booth control, capture workflow, event media creation |
-| iPad Photo Booth | Tablet-based capture, branding, guest interaction, sharing |
-| Magic Mirror Photo Booth | Interactive booth experiences where supported |
-| Robotic camera arm | Motion-synchronized capture workflows where the arm, camera, safety setup, and app configuration are supported |
-| Full-body 3D scanner | Controlled 360-degree subject capture and full-body digital-model workflows |
-| Mainstream action cameras | Wired or wireless capture workflows for compatible cameras such as GoPro and DJI |
-| Mobile device cameras | Built-in iOS or Android camera workflows |
-| DSLR workflows | Professional capture workflows where supported |
-| External screens | TV, projector, or display output where supported by the device and system |
-| Printers | Mobile printing workflows where supported by the device, system, and printer |
+| Software device | Manufacturer, exact model, OS version, and available storage |
+| Application | ChackTok version and the features needed for the event |
+| Camera | Manufacturer, exact model, firmware, and recording settings |
+| Capture connection | Connection type, cable, adapter, and accessories |
+| Booth controller | Manufacturer, controller identification, firmware, and connection |
+| Control requirements | Start, stop, speed, direction, and timing actions required |
+| Delivery | Intended output, guest access steps, network, and destination |
+| Accessories | Display, printer, or trigger model and its connection path |
+| Observed results | Test date, action, result, and relevant message or screenshot |
 
-## Compatibility Checklist
+Keep capture and booth control as separate entries in the same record. Record each device's role when a setup uses more than one device.
 
-Before a commercial event, confirm:
+## Workflow Categories for Configuration Planning
 
-- ChackTok is installed and updated.
-- The phone or tablet has required permissions enabled.
-- Bluetooth, WiFi, camera, media, and storage permissions are ready where needed.
-- The booth, camera, or display device is powered and tested.
-- The capture workflow has been tested with the selected event template.
-- QR code, gallery, email, SMS, or social sharing works on the event network.
-- Backup power, cables, adapters, and network options are available.
+| Workflow | Planning focus |
+| --- | --- |
+| 360 booth | Camera placement, controller actions, capture timing, and guest flow |
+| Tablet booth | Mount, orientation, camera, lighting, power, and guest access |
+| External camera | Exact camera and firmware, capture connection, and media transfer |
+| Separate delivery device | Device roles, account access, event selection, and network |
+| External display | Output connection, orientation, scaling, and content |
+| Print delivery | Printer, connection path, paper, layout, and reprint procedure |
 
-## 360 Photo Booth Notes
+## Pre-Event Checklist
 
-For supported 360 Photo Booth workflows:
+1. Record the installed ChackTok and OS versions.
+2. Check the device permissions required by the selected workflow.
+3. Confirm power, storage, connections, and mounting.
+4. Prepare the selected event settings, template, artwork, and effects.
+5. Run a capture and inspect the processed output.
+6. Complete the guest-delivery steps on the event network.
+7. Test each accessory included in the booking.
+8. Prepare backup power, cables, and the team's fallback delivery procedure.
+9. Save the observed results with the configuration record.
 
-1. Power on the booth and confirm the controller is ready.
-2. Enable Bluetooth on the phone or tablet.
-3. Connect the booth in ChackTok.
-4. Test start, stop, speed, direction, and duration controls where available.
-5. Run a full test capture before the event begins.
+Repeat the affected checks when changing a camera, controller, connection, app version, operating system, or delivery device.
 
-See [Connect a 360 Photo Booth](docs/connect-360-booth.md).
+## 360 Booth Control Review
 
-## iPad Photo Booth Notes
+Identify the controller and use the manufacturer's labels when recording its controls. List the start, stop, speed, direction, and timing actions required for the event.
 
-For iPad Photo Booth workflows:
+Keep the manufacturer's operating and safety documentation with the setup record. Assign equipment supervision and review the operating area and guest route before rehearsing the complete workflow.
 
-- Confirm the iPad model, mount dimensions, orientation, charging, and camera permissions.
-- Test the built-in camera or supported external camera configuration.
-- Check lighting, guest reach, screen readability, and the complete sharing path.
-- Test the printer, paper, and reprint process if physical delivery is included.
-- Prepare a fallback delivery method for unreliable venue networks.
+## Camera and Tablet Review
 
-See [Run an iPad Photo Booth workflow](docs/ipad-photo-booth-workflow.md).
+Check the device mount, orientation, charging, camera placement, lighting, and permissions. For an external camera, add its firmware, recording settings, capture connection, and transfer steps.
 
-## Robotic Camera Arm Notes
+Record the result of preview, capture, processing, and guest delivery separately. Include the actual settings and any issue message with the record.
 
-Robotic camera arm workflows require format-specific planning:
+## Displays and Printing
 
-- Use a trained operator.
-- Define and control the safety boundary.
-- Test the motion path, capture trigger, lighting, camera, and emergency stop process.
-- Keep guests and unauthorized staff outside the arm's operating area.
-- Confirm that the final media-processing and delivery workflow matches the booking.
+When the booking includes a display, record the connection, orientation, scaling, and content to show. When it includes prints, record the printer model, connection path, paper, output layout, and reprint process.
 
-See [Choose the right event imaging format](docs/event-imaging-format-guide.md).
+Rehearse those steps with the equipment and network assigned to the event. Keep the observed results with the complete configuration.
 
-## Full-Body 3D Scanner Notes
+## Setup Guidance
 
-For full-body 3D scanning workflows:
+ChackTok provides separate iOS and Android help entry points. Its setup tutorials include Bluetooth connection, GoPro wired and wireless capture, Share Station, Auto Station, and TV extension workflows.
 
-- Reserve a controlled capture area.
-- Confirm subject-positioning and accessibility requirements.
-- Test the complete capture, model-processing, review, and delivery sequence.
-- Set expectations for processing time and any later 3D-print fulfillment.
-- Confirm current configuration and regional availability before a commercial commitment.
-
-See [Full-body 3D scanning workflow](docs/full-body-3d-scanning.md).
-
-## GoPro and External Display Notes
-
-For GoPro or TV screen workflows:
-
-- Check camera battery, storage, firmware, and connection mode.
-- Test the selected recording settings.
-- Confirm external display orientation and scaling.
-- Keep backup cables or adapters ready.
-
-See [GoPro and TV screen setup](docs/gopro-tv-screen.md).
+- [iOS help](https://www.chacktok.com/h5/help/)
+- [Android help](https://www.chacktok.com/h5/help/android/)
+- [Setup tutorials](https://store.chacktok.com/support-2/)
 
 ## Support
 
-If a device does not behave as expected, contact [support@chacktok.com](mailto:support@chacktok.com) with device model, app version, firmware version if known, screenshots, and the steps already tested.
+Send [support@chacktok.com](mailto:support@chacktok.com) the complete configuration record, action taken, result observed, and relevant screenshots or messages. Identify the point in the capture-to-delivery sequence where assistance is needed.

@@ -1,199 +1,82 @@
-# ChackTok Integration & Extensibility
+# ChackTok Integration Planning
 
-ChackTok is designed as an extensible platform that integrates with event tech ecosystems, not as a standalone app.
+ChackTok brings event setup, templates, effects, content creation, and guest sharing into one software workflow. Start an integration review by describing how your equipment, event content, guest delivery, and business systems need to work together.
 
-## Integration Philosophy
+## Map the Event Workflow
 
-ChackTok focuses on being a reliable workflow layer that connects:
-- Commercial photo booth hardware
-- Event capture and processing
-- Guest delivery and sharing
-- Business operations and management
+Record each step from capture to delivery and identify the device, account, and person responsible.
 
-Our integration approach prioritizes:
-- Open compatibility over proprietary lock-in
-- Standard protocols over custom implementations
-- Data portability over data silos
-- Partner enablement over closed ecosystems
+| Step | Details to include |
+| --- | --- |
+| Event preparation | Event settings, template, artwork, effects, and operator access |
+| Capture | Software device, camera, connection, capture format, and trigger requirements |
+| Booth control | Controller identification, firmware, and required operating controls |
+| Processing | Intended output and the steps used to create it |
+| Guest delivery | Guest access steps, destination, and event network |
+| Client handoff | Required files, delivery owner, and storage destination |
 
----
+Keep one record for each complete capture-to-delivery setup. Record the ChackTok version, operating system, camera firmware, and connection accessories with that setup.
 
-## Current Integration Capabilities
+## Hardware Connections
 
-### Hardware Integrations
+### Booth Controllers
 
-#### Booth Control Layer
-- **Bluetooth Device Control**
-  - Direct communication with 12+ booth brands via Bluetooth LE
-  - Standard control commands: rotation (speed/direction/duration)
-  - Motion detection and automated triggering
-  - Compatible with third-party Bluetooth control boxes
-- **Supported protocols:**
-  - Bluetooth 4.0+ (BLE)
-  - Standard SPP (Serial Port Profile) where applicable
-  - Manufacturer-specific protocols for certified brands
-- **Integration path:**
-  - Hardware partners can certify devices for ChackTok compatibility
-  - Control specification available to licensed partners
-  - Contact: support@chacktok.com
+Describe the actions the operator needs: starting, stopping, speed, direction, and timing. Attach the controller identification and its manufacturer's operating and safety documentation to the configuration record.
 
-#### Camera Integration
-- **Mainstream Action Cameras**
-  - Supports compatible action-camera workflows, including GoPro and DJI where available
-  - Wired or wireless behavior depends on the camera model, firmware, mobile device, connection method, and app version
-  - Operators should verify capture, control, file transfer, processing, and delivery with the exact event configuration
-- **DSLR Cameras (Supported)**
-  - Compatible with mainstream DSLR cameras for professional capture
-  - Used in advanced event setups requiring higher image quality
-- **Built-in Device Cameras**
-  - Native iOS/Android camera APIs
-  - Full resolution and capability access
-  - Lens control, stabilization, filters
+### Cameras
 
-#### Peripheral Support
-- **Printers**
-  - WiFi photo printers via standard mobile printing protocols
-  - iOS: AirPrint (native support)
-  - Android: Mopria Print Service (native support)
-  - Direct integration with select photo printer brands
-- **External Displays**
-  - HDMI displays (via adapter)
-  - Wireless casting: AirPlay (iOS), Miracast (Android)
-  - Smart TV built-in casting protocols
-- **Remote Triggers**
-  - Bluetooth remote shutter devices
-  - Foot pedal triggers (BLE-compatible)
-  - Booth control remotes (brand-specific)
+Record the exact camera model, firmware, capture connection, and recording settings. Keep camera capture and booth control as separate entries in the same setup record. Test preview, capture, transfer, processing, and delivery in sequence.
 
-### Software Integrations
+ChackTok's [setup tutorials](https://store.chacktok.com/support-2/) include Bluetooth connection and GoPro wired and wireless capture guidance.
 
-#### Media Export & Portability
-- **File Access**
-  - All captured media stored in standard formats (MP4, JPG, PNG)
-  - No proprietary encoding or watermark lock-in (for VIP users)
-  - Full-resolution originals accessible via PC web console
-  - Bulk download and archive operations supported
-- **Export formats:**
-  - Video: MP4 (H.264/H.265 codec)
-  - Photo: JPG (high quality), PNG (overlays with transparency)
-  - Metadata: EXIF data preserved where applicable
-- **Storage locations:**
-  - Cloud hosting: ChackTok cloud storage (included in subscription)
-  - Local device: temporary cache for offline access
-  - PC console: bulk download to local/network storage
+### Displays, Printers, and Triggers
 
-#### Sharing & Delivery Integration
-- **QR Code Sharing**
-  - Standard QR codes (no app required for guest access)
-  - Short-link generation for easy sharing
-  - Public gallery URLs compatible with any browser
-- **Social Platform Integration**
-  - Direct sharing to Facebook, Instagram, WhatsApp (platform APIs)
-  - Pre-formatted captions and hashtags
-  - Optimized media formats for each platform
-- **SMS/Email Delivery (where supported)**
-  - Uses device native messaging capabilities
-  - Third-party SMS gateway integration (for bulk sending)
-  - Email delivery via standard SMTP protocols
+For each accessory included in the proposed event, record its model, connection path, required driver or bridge, and intended role. Include display orientation, print layout, or trigger action in the test plan. Record the observed result for each step on the complete setup.
 
-#### PC Web Console
-- **Access:** pc.chacktok.com
-- **Capabilities:**
-  - Event management and settings sync
-  - Media library browsing and bulk operations
-  - Background music upload and library management
-  - User account and subscription management
-- **Sync mechanism:**
-  - Real-time sync between app and web console
-  - Conflict resolution for concurrent edits
-  - Offline changes queued and synced when online
+See [configuration planning and pre-event checks](HARDWARE_COMPATIBILITY.md).
 
----
+## Media and Guest Delivery
 
-## Planned Integration Features
+Choose the required output before planning the handoff. Record file type, dimensions, duration, audio requirements, and the destination supplied by the client.
 
-### Q1-Q2 2026 Roadmap
-- **Webhook Support (under development)**
-  - Real-time event notifications for capture, upload, sharing
-  - Configurable endpoints for third-party systems
-  - Standard webhook payload format (JSON)
-  - **Use cases:**
-    - Trigger downstream workflows in event management systems
-    - Sync media to external storage (Dropbox, Google Drive, S3)
-    - Notify CRM systems of event completion
-    - Update booking systems with event status
-- **API Access (planned)**
-  - RESTful API for event and media management
-  - Authentication via API keys
-  - Rate-limited access for partner applications
-- **Third-Party Platform Integration (under evaluation)**
-  - Event Management Platforms
-  - CRM Systems (Salesforce, HubSpot, Zoho CRM)
-  - Payment Gateways (Stripe, Square, PayPal)
+For guest delivery, rehearse the complete journey from the finished item to guest access. ChackTok's [setup tutorials](https://store.chacktok.com/support-2/) include Share Station, Auto Station, and TV extension guidance. Keep the event, accounts, devices, and network used in that rehearsal with the configuration record.
 
----
+For a business storage destination, record the required files and transfer steps. Check account access and permissions on both ends of the handoff.
 
-## Integration Case Studies
+## PC Web Console
 
-### Example: Multi-Booth Fleet Management
-- **Scenario:** Rental company operates 10+ booths across multiple events
-- **Integration approach:**
-  - All devices logged in with company account
-  - Events managed centrally via PC web console
-  - Templates shared across devices for brand consistency
-  - Media automatically synced to cloud for client delivery
-  - Post-event bulk export to company NAS storage
-- **Result:** Centralized operations, consistent branding, streamlined delivery
+The [ChackTok PC web console](https://pc.chacktok.com) is a separate web entry point. Include the account, requested task, and event involved in your workflow brief. Rehearse any handoff between the app and console using the accounts and devices assigned to the event.
 
----
+## Plan a Software Integration Review
 
-## Partner Integration Program
+Describe the destination system, events and data fields involved, required timing, and accounts or permissions the workflow needs. Include the ChackTok version and software plan used for the proposed setup.
 
-### Hardware Partners
-- **Benefits:**
-  - Official certification and compatibility listing
-  - Co-marketing opportunities
-  - Early access to new ChackTok features
-  - Technical integration support
-- **Apply:** support@chacktok.com with subject "Hardware Partner Program"
+For an API, webhook, CRM, or storage integration request, include:
 
-### Software Integration Partners
-- **Benefits:**
-  - API access for integration development
-  - Technical documentation and support
-  - Partner listing in ChackTok ecosystem directory
-  - Referral and revenue sharing opportunities
-- **Target partners:**
-  - Event management platforms
-  - CRM and marketing automation systems
-  - Cloud storage providers
-  - Payment processors
-- **Apply:** support@chacktok.com with subject "Software Integration Inquiry"
+- The destination product and version.
+- The actions or events that need to trigger a handoff.
+- The fields and media involved.
+- Authentication and permission requirements on the destination system.
+- Expected volume, timing, and failure-handling requirements.
+- The contact responsible for testing the complete workflow.
 
----
+Send this workflow brief to [support@chacktok.com](mailto:support@chacktok.com) with the subject "Software Integration Inquiry".
 
-## Data Portability & Standards
+## Hardware Integration Inquiries
 
-### Open Data Formats
-ChackTok commits to data portability:
-- **Media files:** Standard MP4 (video), JPG/PNG (photos). No proprietary containers.
-- **Event data:** Export event settings as JSON (planned).
-- **User data:** Download all personal data via account settings. Account deletion removes all cloud data (GDPR/privacy compliance).
+Send the equipment model, controller identification, manufacturer documentation, requested control actions, and complete configuration record to [support@chacktok.com](mailto:support@chacktok.com). Include the output and delivery steps the proposed equipment needs to support.
 
----
+## Data Handling
+
+ChackTok's Data Protection Policy describes storage, access control, retention, deletion, and data-request procedures. Include the required policy and data-handling documents in your integration review.
+
+Record the data collected for the event, who needs access, where it will be delivered, and the retention requirements agreed with the client. Direct policy and data-request questions to [support@chacktok.com](mailto:support@chacktok.com).
 
 ## Technical Resources
 
-- **Documentation:**
-  - [README - Platform Overview](README.md)
-  - [HARDWARE_COMPATIBILITY - Detailed hardware tables](HARDWARE_COMPATIBILITY.md)
-  - [FAQ - Technical questions](FAQ.md)
-- **Support:**
-  - Email: support@chacktok.com
-
----
-
-**Document Version:** v2.0 (March 2026)  
-**Last Updated:** 2026-03-31  
-**Maintained by:** LINKSIGN UK CO., LTD  
-*Roadmap subject to change based on partner demand and technical priorities.*
+- [Platform overview](README.md)
+- [Configuration planning and pre-event checks](HARDWARE_COMPATIBILITY.md)
+- [Event workflow planning](CASE_STUDIES.md)
+- [Photo booth software buyer's guide](BUYERS_GUIDE.md)
+- [iOS help](https://www.chacktok.com/h5/help/)
+- [Android help](https://www.chacktok.com/h5/help/android/)
