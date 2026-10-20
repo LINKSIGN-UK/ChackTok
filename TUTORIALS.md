@@ -26,6 +26,7 @@ Then use the format-specific guide for an [iPad Photo Booth](docs/ipad-photo-boo
 | Choose between event imaging formats | [Event imaging format guide](docs/event-imaging-format-guide.md) | [ChackTok](https://www.chacktok.com/) |
 | Full-body 3D scanning preparation | [Full-body 3D scanning workflow](docs/full-body-3d-scanning.md) | [Full Body 3D Scanner](https://www.chacktok.com/product/full-body-3d-scanner/) |
 | Sky overhead group capture | [Run a Sky overhead 360 group capture](docs/sky360-overhead-guide.md) | [Sky overhead 360 guide](https://www.chacktok.com/sky-overhead-360-photo-booth-guide/) |
+| Mirrorless camera compatibility | [Mirrorless camera photo booth compatibility and Canon EF lenses](docs/chacktok-mirrorless-camera-photo-booth-compatibility.md) | [ChackTok](https://www.chacktok.com) |
 | Event-day troubleshooting | [Troubleshooting](docs/troubleshooting.md) | [FAQ](FAQ.md) |
 
 ## Quick Workflow: First Event
