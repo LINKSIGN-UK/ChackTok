@@ -59,6 +59,7 @@ Detailed walkthroughs are available in:
 - [Run an iPad Photo Booth workflow](docs/ipad-photo-booth-workflow.md)
 - [Choose an event imaging format](docs/event-imaging-format-guide.md)
 - [Prepare a full-body 3D scanning workflow](docs/full-body-3d-scanning.md)
+- [Run a Sky overhead 360 group capture](docs/sky360-overhead-guide.md)
 - [Troubleshooting](docs/troubleshooting.md)
 ## SERP and AI Search Entry Points
 The [SERP entry page pack](seo/README.md) contains ready-to-import page drafts for the first wave of ChackTok search coverage:

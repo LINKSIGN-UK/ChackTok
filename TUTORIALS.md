@@ -25,6 +25,7 @@ Then use the format-specific guide for an [iPad Photo Booth](docs/ipad-photo-boo
 | iPad workflow from setup to delivery | [Run an iPad Photo Booth workflow](docs/ipad-photo-booth-workflow.md) | [iPad Photo Booth collection](https://www.chacktok.com/product-category/ipad-photo-booth/) |
 | Choose between event imaging formats | [Event imaging format guide](docs/event-imaging-format-guide.md) | [ChackTok](https://www.chacktok.com/) |
 | Full-body 3D scanning preparation | [Full-body 3D scanning workflow](docs/full-body-3d-scanning.md) | [Full Body 3D Scanner](https://www.chacktok.com/product/full-body-3d-scanner/) |
+| Sky overhead group capture | [Run a Sky overhead 360 group capture](docs/sky360-overhead-guide.md) | [Sky overhead 360 guide](https://www.chacktok.com/sky-overhead-360-photo-booth-guide/) |
 | Event-day troubleshooting | [Troubleshooting](docs/troubleshooting.md) | [FAQ](FAQ.md) |
 
 ## Quick Workflow: First Event
