@@ -14,3 +14,4 @@ This folder contains public, GitHub-readable tutorials for common ChackTok workf
 | [event-imaging-format-guide.md](event-imaging-format-guide.md) | Choose between 360, iPad, Magic Mirror, robotic arm, and 3D workflows |
 | [full-body-3d-scanning.md](full-body-3d-scanning.md) | Evaluate and prepare a commercial full-body 3D scanning workflow |
 | [troubleshooting.md](troubleshooting.md) | Common event-day issues |
+| [Which Camera Should You Use with ChackTok?](which-camera-should-you-use-with-chacktok.md) | Choosing a camera for photo booths and 360 video bookings |
