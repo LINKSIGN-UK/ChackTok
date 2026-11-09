@@ -61,6 +61,7 @@ Detailed walkthroughs are available in:
 - [Prepare a full-body 3D scanning workflow](docs/full-body-3d-scanning.md)
 - [Run a Sky overhead 360 group capture](docs/sky360-overhead-guide.md)
 - [Mirrorless camera photo booth compatibility and Canon EF lenses](docs/chacktok-mirrorless-camera-photo-booth-compatibility.md)
+- [Which Camera Should You Use with ChackTok?](docs/which-camera-should-you-use-with-chacktok.md)
 - [Troubleshooting](docs/troubleshooting.md)
 ## SERP and AI Search Entry Points
 The [SERP entry page pack](seo/README.md) contains ready-to-import page drafts for the first wave of ChackTok search coverage:
